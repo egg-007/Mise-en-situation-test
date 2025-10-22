@@ -34,14 +34,30 @@ body{
     width: 928px;
     padding: 40px;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.active-button{
+    background-color: #b2c5e5;
+    color: #121416;
+    width: 140px;
+    height: 40px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
 }
 
 .btn{
     background-color: #b2c5e5;
     color: #121416;
-    display: flex;
-    justify-content: center;
+    width: 140px;
     height: 40px;
+    margin: 0px 44%;
     padding: 16px 20px;
     border-radius: 12px;
     font-weight: 700;
@@ -61,6 +77,7 @@ body{
     font-size: large;
     padding: 10%;
 }
+
 .container{
     padding: 20px 240px;
 }
@@ -69,11 +86,17 @@ body{
     display: flex;
     justify-content: center;
 }
+.card h5{
+    font-weight: 800;
+    font-size: large;
+}
 .card img{
-    border-radius: 12px;
+    display: flex;
+    margin: 10px;
+    border-radius: 30px;
     padding: 16px;
     aspect-ratio: 16 / 9;
-    width: 90%;
+    width: 45%;
     height: auto;
     overflow: hidden;
 }
@@ -84,6 +107,7 @@ body{
 }
 
 .footer-txt{
+    margin: 40px;
     display: inline;
     text-decoration: none;
     color: #6a7281;
