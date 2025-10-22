@@ -32,7 +32,7 @@ body{
     background-size: cover;
     height: 480px;
     width: 928px;
-    padding: 40px 40px 40px 0px;
+    padding: 40px 0px 40px 0px;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
